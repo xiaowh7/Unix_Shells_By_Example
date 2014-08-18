@@ -1,0 +1,10 @@
+#!/bin/bash
+1i\
+PERSONNEL FILE
+
+/500$/d
+
+s#\([a-zA-Z]*\) \([a-zA-Z]*\):#\2 \1:#
+
+$a\
+THE END

@@ -1,0 +1,2 @@
+#!/bin/bash
+awk -F: '$1 ~ /Nancy McNeil/ {$1 = "Louise McInnes"; print $0}' lab3.data

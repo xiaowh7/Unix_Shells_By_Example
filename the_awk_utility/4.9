@@ -1,0 +1,2 @@
+#!/bin/bash
+awk -F: '$1 ~ /Chet/ {$4 += 10; print $0}' lab3.data

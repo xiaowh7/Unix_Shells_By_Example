@@ -1,0 +1,2 @@
+#!/bin/bash
+awk -F: '$1 ~ /Mike/ {printf "$%d $%d $%d\n", $3, $4, $5}' lab3.data

@@ -1,0 +1,4 @@
+#!/bin/bash
+$1 ~ /Savage/{print  $1 ", " $2}
+$1 ~ /Chet/{printf "Chet's contribution: $%s $%s $%s\n", $3, $4, $5}
+$3 ~ /^250$/{print $1 " contributed $250 the first month"}

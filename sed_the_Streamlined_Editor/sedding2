@@ -1,0 +1,6 @@
+/western/, /southeast/{
+	/^ *$/d
+	/Suan/ {h; d;}
+}
+/Ann/g
+s/TB \(Savage\)/Thomas \1/
